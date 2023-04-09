@@ -7,8 +7,8 @@ module.exports = {
   cssFallbackOutputFile: 'src/scss/bulma-generated/generated-fallback.css',
   colorDefs: {
     white: '#fff',
-    primary: hsl(153, 48, 49), // '#41b883',
-    dark: hsl(226, 34, 24), // '#283252',
+    primary: hsl(195, 43, 79), // '#b1d4e0',
+    dark: hsl(209, 78, 35), // '#283252',
     link: hsl(229, 53, 53), // '#485fc7',
     info: hsl(200, 97, 45), // '#039be5',
     success: hsl(164, 95, 43), // '#06d6a0',
