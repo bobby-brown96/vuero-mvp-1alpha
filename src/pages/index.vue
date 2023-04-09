@@ -2,7 +2,7 @@
 import { useHead } from '@vueuse/head'
 
 useHead({
-  title: 'Vuero - A complete Vue 3 design system',
+  title: 'MyFinancesNow - Welcome Page',
 })
 </script>
 
@@ -71,9 +71,9 @@ useHead({
                 </h3>
                 <div class="buttons">
                   <VButton color="primary" bold rounded raised> Get Started </VButton>
-                  <VButton color="primary" outlined bold rounded raised>
+                  <!-- <VButton color="primary" outlined bold rounded raised>
                     14-day Trial
-                  </VButton>
+                  </VButton> -->
                 </div>
               </div>
               <div class="column is-7">

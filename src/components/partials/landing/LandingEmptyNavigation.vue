@@ -63,7 +63,7 @@ watchEffect(() => {
               }
             "
           >
-            Awesome Features
+            MyFinancesNow
           </RouterLink>
         </div>
       </div>

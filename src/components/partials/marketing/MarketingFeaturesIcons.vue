@@ -3,8 +3,8 @@
     <div class="container">
       <!--Title-->
       <div class="section-title has-text-centered py-6">
-        <h2 class="title is-2">Awesome Features</h2>
-        <h4>Vuero has been carefully handcrafted.</h4>
+        <h2 class="title is-2">Progressive Features</h2>
+        <h4>Which will make you the richest you?</h4>
       </div>
 
       <!--Content-->
@@ -14,29 +14,12 @@
           <div class="column is-3">
             <div class="card card-icon-box">
               <div class="card-content">
-                <VIconBox size="medium" color="blue">
-                  <i aria-hidden="true" class="lnil lnil-layout-alt-2"></i>
+                <VIconBox size="medium" color="success">
+                  <i aria-hidden="true" class="lnil lnil-grid-alt"></i>
                 </VIconBox>
 
-                <h4 class="title is-5">Nice Vectors</h4>
-                <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Box-->
-          <div class="column is-3">
-            <div class="card card-icon-box">
-              <div class="card-content">
-                <VIconBox size="medium" color="warning">
-                  <i aria-hidden="true" class="lnil lnil-layers"></i>
-                </VIconBox>
-
-                <h4 class="title is-5">Icon title</h4>
-                <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                <h4 class="title is-5">Secure your Data</h4>
+                <p class="subtitle is-6 light-text">Secure your personal data</p>
               </div>
             </div>
           </div>
@@ -48,9 +31,9 @@
                   <i aria-hidden="true" class="lnil lnil-grid-alt"></i>
                 </VIconBox>
 
-                <h4 class="title is-5">Icon title</h4>
+                <h4 class="title is-5">Import your transactions</h4>
                 <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Use our technology to reconcile transactions
                 </p>
               </div>
             </div>
@@ -63,10 +46,8 @@
                   <i aria-hidden="true" class="lnil lnil-bulb"></i>
                 </VIconBox>
 
-                <h4 class="title is-5">Icon title</h4>
-                <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                <h4 class="title is-5">Be the Best You</h4>
+                <p class="subtitle is-6 light-text">Let no savings escape you</p>
               </div>
             </div>
           </div>
@@ -78,69 +59,9 @@
                   <i aria-hidden="true" class="lnil lnil-cog"></i>
                 </VIconBox>
 
-                <h4 class="title is-5">Icon title</h4>
+                <h4 class="title is-5">Effortless Transaction Creation</h4>
                 <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Box-->
-          <div class="column is-3">
-            <div class="card card-icon-box">
-              <div class="card-content">
-                <VIconBox size="medium" color="yellow">
-                  <i aria-hidden="true" class="lnil lnil-plug"></i>
-                </VIconBox>
-
-                <h4 class="title is-5">Icon title</h4>
-                <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Box-->
-          <div class="column is-3">
-            <div class="card card-icon-box">
-              <div class="card-content">
-                <VIconBox size="medium" color="orange">
-                  <i aria-hidden="true" class="lnil lnil-folder-alt"></i>
-                </VIconBox>
-
-                <h4 class="title is-5">Icon title</h4>
-                <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Box-->
-          <div class="column is-3">
-            <div class="card card-icon-box">
-              <div class="card-content">
-                <VIconBox size="medium" color="info">
-                  <i aria-hidden="true" class="lnil lnil-timer"></i>
-                </VIconBox>
-
-                <h4 class="title is-5">Icon title</h4>
-                <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Box-->
-          <div class="column is-3">
-            <div class="card card-icon-box">
-              <div class="card-content">
-                <VIconBox size="medium" color="blue">
-                  <i aria-hidden="true" class="lnil lnil-pie-chart-alt"></i>
-                </VIconBox>
-
-                <h4 class="title is-5">Icon title</h4>
-                <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Integrate to your bank and make everything easy
                 </p>
               </div>
             </div>
@@ -153,10 +74,8 @@
                   <i aria-hidden="true" class="lnil lnil-licencse"></i>
                 </VIconBox>
 
-                <h4 class="title is-5">Icon title</h4>
-                <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
+                <h4 class="title is-5">Set Your Budget</h4>
+                <p class="subtitle is-6 light-text">Create a budget and track progress</p>
               </div>
             </div>
           </div>
@@ -168,9 +87,9 @@
                   <i aria-hidden="true" class="lnil lnil-grow"></i>
                 </VIconBox>
 
-                <h4 class="title is-5">Icon title</h4>
+                <h4 class="title is-5">International Capability</h4>
                 <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  No extra charge for multi currency operations
                 </p>
               </div>
             </div>
@@ -183,9 +102,23 @@
                   <i aria-hidden="true" class="lnil lnil-bank"></i>
                 </VIconBox>
 
-                <h4 class="title is-5">Icon title</h4>
+                <h4 class="title is-5">Analyze Your Spending</h4>
                 <p class="subtitle is-6 light-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Analyze how you spend your money based on AI responses
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="column is-3">
+            <div class="card card-icon-box">
+              <div class="card-content">
+                <VIconBox size="medium" color="yellow">
+                  <i aria-hidden="true" class="lnil lnil-bank"></i>
+                </VIconBox>
+
+                <h4 class="title is-5">External Flags</h4>
+                <p class="subtitle is-6 light-text">
+                  Show anywhere that someone has been externally flagged
                 </p>
               </div>
             </div>
