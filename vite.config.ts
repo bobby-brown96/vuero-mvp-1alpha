@@ -14,8 +14,8 @@ import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 import purgecss from 'rollup-plugin-purgecss'
 
-// local vite plugin
-import { VitePluginVueroDoc } from './vite-plugin-vuero-doc'
+// // local vite plugin
+// import { VitePluginVueroDoc } from './vite-plugin-vuero-doc'
 
 // options via env variables
 const MINIFY_IMAGES = process.env.MINIFY ? process.env.MINIFY === 'true' : false
@@ -40,7 +40,7 @@ export default defineConfig({
   // development server configuration
   server: {
     // Vite 4 defaults to 5173, but you can override it with the port option.
-    port: 3000,
+    port: 4300,
   },
   /**
    * By default, Vite will crawl your index.html to detect dependencies that
@@ -181,28 +181,28 @@ export default defineConfig({
       imports: ['vue', '@vueuse/core', VueRouterAutoImports],
     }),
 
-    /**
-     * This is an internal vite plugin that load markdown files as vue components.
-     *
-     * @see /documentation
-     * @see /vite-plugin-vuero-doc
-     * @see /src/components/partials/documentation/DocumentationItem.vue
-     * @see /src/composable/useMarkdownToc.ts
-     */
-    VitePluginVueroDoc({
-      pathPrefix: 'documentation',
-      wrapperComponent: 'DocumentationItem',
-      shiki: {
-        theme: {
-          light: 'min-light',
-          dark: 'github-dark',
-        },
-      },
-      sourceMeta: {
-        enabled: true,
-        editProtocol: 'vscode://vscode-remote/wsl+Ubuntu', // or 'vscode://file'
-      },
-    }),
+    // /**
+    //  * This is an internal vite plugin that load markdown files as vue components.
+    //  *
+    //  * @see /documentation
+    //  * @see /vite-plugin-vuero-doc
+    //  * @see /src/components/partials/documentation/DocumentationItem.vue
+    //  * @see /src/composable/useMarkdownToc.ts
+    //  */
+    // VitePluginVueroDoc({
+    //   pathPrefix: 'documentation',
+    //   wrapperComponent: 'DocumentationItem',
+    //   shiki: {
+    //     theme: {
+    //       light: 'min-light',
+    //       dark: 'github-dark',
+    //     },
+    //   },
+    //   sourceMeta: {
+    //     enabled: true,
+    //     editProtocol: 'vscode://vscode-remote/wsl+Ubuntu', // or 'vscode://file'
+    //   },
+    // }),
 
     /**
      * unplugin-vue-components plugin is responsible of autoloading components
