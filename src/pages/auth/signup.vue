@@ -31,6 +31,9 @@ const validationSchema = toFormValidator(
           required_error: t('auth.errors.email.required'),
         })
         .email(t('auth.errors.email.format')),
+      username: zod
+        .string({ required_error: t('auth.errors.username.required') })
+        .min(5, t('auth.errors.username.length')),
       password: zod
         .string({
           required_error: t('auth.errors.password.required'),
@@ -39,7 +42,6 @@ const validationSchema = toFormValidator(
       passwordCheck: zod.string({
         required_error: t('auth.errors.passwordCheck.required'),
       }),
-      promotional: zod.boolean(),
     })
     .refine((data) => data.password === data.passwordCheck, {
       message: t('auth.errors.passwordCheck.match'),
@@ -52,9 +54,9 @@ const { handleSubmit } = useForm({
   initialValues: {
     name: '',
     email: '',
+    username: '',
     password: '',
     passwordCheck: '',
-    promotional: false,
   },
 })
 
@@ -148,6 +150,20 @@ useHead({
                       </VField>
 
                       <!-- Input -->
+                      <VField id="username" v-slot="{ field }">
+                        <VControl icon="feather:user">
+                          <VInput
+                            type="text"
+                            :placeholder="t('auth.placeholder.username')"
+                            autocomplete="username"
+                          />
+                          <p v-if="field?.errors?.value?.length" class="help is-danger">
+                            {{ field.errors?.value?.join(', ') }}
+                          </p>
+                        </VControl>
+                      </VField>
+
+                      <!-- Input -->
                       <VField id="password" v-slot="{ field }">
                         <VControl icon="feather:lock">
                           <VInput
@@ -171,16 +187,6 @@ useHead({
                           <p v-if="field?.errors?.value?.length" class="help is-danger">
                             {{ field.errors?.value?.join(', ') }}
                           </p>
-                        </VControl>
-                      </VField>
-
-                      <VField id="promitional">
-                        <VControl class="setting-item">
-                          <VCheckbox
-                            color="primary"
-                            :label="t('auth.label.promotional')"
-                            paddingless
-                          />
                         </VControl>
                       </VField>
 
